@@ -1,0 +1,510 @@
+@font-face {
+    font-family: "Nikumaru";
+    src: url(/css/nikumaru.otf);
+}
+
+@font-face {
+    font-family: "Noe";
+    src: url(/css/NoeDisplay-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-image: url("/image/bg.png");
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    background:floralwhite;
+    padding-right: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    font-family: "nikumaru" ,sans-serif;
+}
+
+.navbar a:hover{
+    color: #009688;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navbar ul{
+    padding-right: 150px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:  rgb(32,29,33);
+    text-transform: uppercase;
+}
+.c-item{
+    height: 10%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+
+.c-img{
+    height: 10%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.padding{
+    padding: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    
+}
+
+.content{
+    margin-right: 150px;
+    margin-left: 150px;
+    display: inline-block;
+    
+}
+
+.logo{
+    width:350px;
+    padding-left: 50px;
+}
+
+.sweet{
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 70% ;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    
+    /* border-radius: 50%;
+    width: 240px;
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.bahan{
+    height: 1000px;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+
+.news{
+    font-family:"Noe", sans-serif ;
+    margin-top: 50px;
+    margin-left: 40%;
+  
+}
+
+.btn-click{
+    background-color: #6dece8;
+}
+
+
+
+.about{
+    font-family: "nikumaru" ,sans-serif;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 50px ;
+  
+}
+
+.about-content{
+    font-family: "nikumaru" ,sans-serif;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 38%;
+    font-size: 30px;
+}
+
+.about-content2{
+    font-family: "nikumaru" ,sans-serif;
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 20%;
+    font-size: 30px;
+    width: 40%;
+}
+
+.jpeg{
+    margin-top: 100px;
+    margin-left: 10% ;
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    display: inline-block;
+}
+
+.founder{
+    font-family:"Noe", sans-serif ;
+    margin-top: 800px;
+    margin-left: 35%;
+    display: flex;
+}
+
+.jojo{
+    border-radius: 50%;
+    width: 240px;
+    padding: 50px;
+    display: block;
+    margin-left:40%;
+}
+
+.jabatan{
+    font-family:'noe', sans-serif ;
+    margin-top: -45px;
+    margin-left: 46%;
+    font-size: 30px;
+}
+
+.nama{
+    font-family:"Noe", sans-serif ;
+    margin-left: 38%;
+    font-size: 25px;
+}
+
+.dewa{
+    border-radius: 50%;
+    width: 240px;
+    padding: 50px;
+    display: block;
+    margin-left:50%;
+}
+
+.jabatan2{
+    font-family:"Noe", sans-serif ;
+    margin-top: -50px;
+    margin-left: 270px;
+    font-size: 30px;
+}
+.nama2{
+    font-family:"Noe", sans-serif ;
+    margin-left: 225px;
+    font-size: 25px;
+}
+
+.cont-img{
+    display: inline-block;
+}
+
+.dita{
+    margin-top: -330px;
+    border-radius: 50%;
+    width: 240px;
+    padding: 50px;
+    display: block;
+    margin-left:600px;
+}
+
+.jabatan3{
+    font-family:"Noe", sans-serif ;
+    margin-top: -50px;
+    margin-left: 690px;
+    font-size: 30px;
+}
+
+.nama3{
+    font-family:"Noe", sans-serif ;
+    margin-left: 645px;
+    font-size: 25px;
+}
+
+.cont-img2{
+    margin-left: -380px;
+    display: inline-block;
+}
+
+/* .cont-img3{
+    display: inline-block;
+} */
+
+.nathan{
+    margin-top: -450px;
+    border-radius: 50%;
+    width: 240px;
+    padding: 50px;
+    margin-left:1000px;
+}
+
+.jabatan4{
+    font-family:"Noe", sans-serif ;
+    margin-top: -160px;
+    margin-left: 1100px;
+    font-size: 30px;
+}
+
+.nama4{
+    font-family:"Noe", sans-serif ;
+    margin-left: 1050px;
+    font-size: 25px;
+}
+
+.location-tt{
+    font-family:"Noe", sans-serif ;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 46%;
+}
+
+.map{
+    margin-top: 50px;
+    margin-right: 50%;
+    margin-left: 32%;;
+}
+
+.ex{
+    font-family:"Noe", sans-serif ;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 46%;
+}
+
+.ex1{
+    margin-top: 50px;
+    width : 240px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.ex2{
+    width : 240px;
+    margin-top: -350px;
+    margin-left: 400px;
+}
+
+.ex3{
+    width : 240px;
+    margin-top: -400px;
+    margin-left: 700px;
+}
+
+.ex4{
+    width : 240px;
+    margin-top: -450px;
+    margin-left: 1000px;
+}
+
+.ex-p{
+    margin-left: 100px;
+}
+
+.ocean{
+    border-radius: 40%;
+    width: 240px;
+    padding: 20px;
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oc{
+    font-family:"Noe", sans-serif ;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 44%;
+}
+
+.oc2{
+    font-family:"Noe", sans-serif ;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.oc3{
+    font-family:"Noe", sans-serif ;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.lemon{
+    border-radius: 40%;
+    height: 240px;
+    width: 240px;
+    padding: 20px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oc4{
+    font-family:"Noe", sans-serif ;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 43%;
+}
+
+.testi-tt{
+    font-family:"Noe", sans-serif ;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: 50px ;
+}
+
+.testi-nama{
+    font-family:"Noe", sans-serif ;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 40%;
+    font-size: 30px;
+}
+
+.testi-content{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15px;
+    width: 40%;
+    font-size: 20px;
+}
+
+
+
+.vava{
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 70% ;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+
+}
+
+.star{
+    position: absolute;
+    margin-top: 15px;
+    width: 18%;
+    font-size: 20px;
+}
+
+.testi-nama2{
+    font-family:"Noe", sans-serif ;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20%;
+    font-size: 30px;
+    width: 40%;
+
+}
+
+.testi-content2{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 25%;
+    font-size: 20px;
+    width: 40%;
+}
+
+.kevin{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 250px;
+    width: 240px;
+    font-size: 20px;
+}
+
+.star2{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 25%;
+    font-size: 20px;
+    width: 18%;
+}
+
+.testi-nama3{
+    font-family:"Noe", sans-serif ;
+    margin-left: 5%;
+    margin-top: 650px;
+    width: 40%;
+    font-size: 30px;
+}
+
+.testi-content3{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 40%;
+    font-size: 20px;
+}
+
+
+.aldo{
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 70% ;
+    position: absolute;
+    
+    width: 250px;
+}
+.star3{
+    position: absolute;
+    margin-top: 15px;
+    width: 18%;
+    font-size: 20px;
+}
+
+.bg{
+    height: 1000px;
+    width: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+}
+
+.n-img{
+    height: 340px;
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
+footer a{
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+}
+
+
+footer .instagram{
+  background-image: url("https://img.icons8.com/fluency/48/000000/instagram-new.png");
+  background-repeat: no-repeat;
+  
+}
